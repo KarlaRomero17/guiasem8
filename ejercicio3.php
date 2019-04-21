@@ -46,7 +46,6 @@ for ($i=1; $i <= 1000 ; $i++)
             $contador2++;
             }
         }
-        
         //echo ("<br><br> Hay " . $contador2 . " número bisiestos entre el 2000 el 3000");
         
 
