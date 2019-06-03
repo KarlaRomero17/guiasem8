@@ -55,8 +55,8 @@ if(filter_input(INPUT_POST, "num"))
          }
  else 
      {
-     echo "Ingrese un número";
-     } 
+     echo "Por favor ingrese un número";
+ }
  }
  
 ?>   
