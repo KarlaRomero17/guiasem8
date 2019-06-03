@@ -39,19 +39,23 @@ $codigo=$_POST['codigo'];
      else
      {
          echo "";
-      echo "salto de linea";
+      echo "";
      }
  }
          
          for($i=0;$i<count($codigo);$i++)
          {
+          echo "**********************************************************";
              echo '<br>Codigo del empleado: '.$codigo[$i];
              echo '<br>Nombre del empleado: '.$nombre[$i];
              echo '<br>Sueldo base del empleado: '.$sueldo[$i];
              echo '<br>Sueldo con aumento: '.$nueSueldo[$i]."<br><br>";
+          echo "***********************************************************";
          }
+         echo "*************************************************************";
          echo '<br>Total de la planilla de todos los empleado: '.$montoTot;
          echo '<br>Monto total de los aumentos: '.$montoTot;
+         echo "**************************************************************";
          
  } 
 
