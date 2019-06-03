@@ -4,7 +4,6 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->      
-<!--Ejercicio -->
 <html>     
     <head>  
         <meta charset="UTF-8"> 
@@ -36,12 +35,14 @@ if(isset($_POST['calcular']))
 { 
 $num=$_POST['matriz'];
 $conpo=0; 
-$acum=0;  
+$acum=0; 
 $promedio;
 $connega=0;
 $con=0;
 $pronto; 
 $acumtotal=0;
+    $comihjjj;
+    $acummmm;
 for($i=0; $i<$conta; $i++)
 {
       if ($num[$i]>0)
@@ -53,7 +54,7 @@ for($i=0; $i<$conta; $i++)
         else if ($num[$i]<0)
         {
             $connega=$connega+1;
-        }
+        }     
         
         $acumtotal=$acumtotal+$num[$i];
         $con=$con+1;
