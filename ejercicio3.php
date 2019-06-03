@@ -8,6 +8,7 @@
 /*Desarrollar un programa en Java que muestre por pantalla los números primos del
     1 al 1000 y todos los años bisiestos entre el año 2000 y 3000.*/
 echo ("<br><br>****************NÚMEROS PRIMOS DEL 1 AL 1000*****************<br>");
+echo "******************************************************************************";
 $contador=0;
 $i;
 $j;
