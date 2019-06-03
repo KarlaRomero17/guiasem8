@@ -35,7 +35,7 @@ if(isset($_POST['calcular']))
 { 
 $num=$_POST['matriz'];
 $conpo=0; 
-$acum=0; 
+$acum=0;  
 $promedio;
 $connega=0;
 $con=0;
