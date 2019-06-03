@@ -31,7 +31,7 @@ if(isset($_POST['enviar']))
 else
 {
     echo "";
-    echo "Esre ejercicio si funciona xd"
+    echo "Este ejercicio si funciona xd"
 }
 
 ?>
