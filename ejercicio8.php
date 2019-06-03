@@ -61,6 +61,7 @@ for($i=0; $i<$conta; $i++)
   $promedio=$acum/$conpo;
        echo("<br>Números ingresados mayores a cero: " . $conpo);
        echo("<br>Números positivos: " . $conpo . " Promedio de positivos: ". $promedio);
+    echo("<br>Este es un cambio realizado para completar el formulario");
       echo("<br>Números negativos: " . $connega);
        echo("<br>Promedio de todos los números ingresados: " . $pronto);
      }
