@@ -39,6 +39,7 @@ $codigo=$_POST['codigo'];
      else
      {
          echo "";
+      echo "salto de linea";
      }
  }
          
